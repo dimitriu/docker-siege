@@ -24,3 +24,4 @@ WORKDIR   /siege
 VOLUME    /siege
 
 ENTRYPOINT siege -f urls.txt -i -b -R siegerc
+
